@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # React Hooks Pitfalls
 
 I'm ok with react hooks as a notion, I like the minimalistic and functional approach they give me, allowing me to write cleaner and more readable code, but hooks comes at a price:
