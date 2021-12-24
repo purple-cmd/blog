@@ -8,7 +8,7 @@ I'm ok with react hooks as a notion, I like the minimalistic and functional appr
 - At the beginning, you may think useEffect is the combination of componentDidMount, componentDidUpdate and componentWillUnmount. Only to discover that it really isn't, and that you have to change your ways of thinking. 
 - This hook is an anonymous function, without a name, further making it harder for you to understand. 
 3. __Memo? you decide__ - React hooks leaves the programer to think about where to put memoization in code, while classes didn't (aside from memo), while other frontend frameworks like Angular, Svelte and Vue don't ask us to care about those think. I cope that by checking performance with react dev extension from time to time and just then deciding where to memo. But, this is a bad pattern, I've already seen many programmers putting useMemo/useCallback/Memo everywhere in the code, which just makes the code less readbale and creates another scope for each variable, a thing which can decrease performance not increase.
-In the last react conf, (https://www.youtube.com/watch?v=lGEMwh32soc)[one of react team members related to this issue]
+In the last react conf, [one of react team members related to this issue](https://www.youtube.com/watch?v=lGEMwh32soc).
 
 ## So how we can try to solve those things? 
 1. __Extremely unopinionated__ - Give some pattern to how custom hooks should look.
