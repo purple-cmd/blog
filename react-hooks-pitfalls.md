@@ -1,6 +1,7 @@
 # React Hooks Pitfalls
 
 I'm ok with react hooks as a notion, I like the minimalistic and functional approach they give me, allowing me to write cleaner and more readable code, but hooks comes at a price:
+
 1. Extremely unopinionated - React is unopinionated, and particulary hooks. React team haven't given has a clear examples and pattern into how to write custom hooks, they said: "useYourImagination()". To me, the hardest part embracing hooks was writing the custom ones, because of that. It took me hard time to find a pattern that would really work for me. 
 2. useEffect ambigiousity - 
 - At the beginning, you may think useEffect works like a "useWatch" function, but it doesn't. You think in cause and effect, but! for react to catch the most updated value of variables there, we have to add each and one of them to the dependency array, thus creating a long array of refreshers we didn't intended to, and decreasing readability. 
