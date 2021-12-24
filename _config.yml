@@ -5,3 +5,9 @@ markdown: kramdown
 paginate: 5
 paginate_path: "/:num/"
 date_format: "%b %-d, %Y"
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
