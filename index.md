@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <u> All of my posts: </u>
 {% for post in site.posts %}
   <article>
