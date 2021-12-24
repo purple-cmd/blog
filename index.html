@@ -1,0 +1,16 @@
+---
+---
+
+<h1>Knowland</h1>
+
+<h2>Posts</h2>
+
+<ul>
+{% for post in paginator.posts %}
+<li>
+  <a href="{{ post.url }}">
+    <h3>{{ post.date | date_to_long_string }} - {{ post.title }}</h3>
+  </a>
+</li>
+{% endfor%}
+</ul>
