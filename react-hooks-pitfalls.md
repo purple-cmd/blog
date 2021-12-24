@@ -1,3 +1,5 @@
+# React Hooks Pitfalls
+
 I'm ok with react hooks as a notion, I like the minimalistic and functional approach they give me, allowing me to write cleaner and more readable code, but hooks comes at a price:
 1. Extremely unopinionated - React is unopinionated, and particulary hooks. React team haven't given has a clear examples and pattern into how to write custom hooks, they said: "useYourImagination()". To me, the hardest part embracing hooks was writing the custom ones, because of that. It took me hard time to find a pattern that would really work for me. 
 2. useEffect ambigiousity - 
@@ -7,7 +9,7 @@ I'm ok with react hooks as a notion, I like the minimalistic and functional appr
 3. Memo? you decide - React hooks leaves the programer to think about where to put memoization in code, while classes didn't (aside from memo), while other frontend frameworks like Angular, Svelte and Vue don't ask us to care about those think. I cope that by checking performance with react dev extension from time to time and just then deciding where to memo. But, this is a bad pattern, I've already seen many programmers putting useMemo/useCallback/Memo everywhere in the code, which just makes the code less readbale and creates another scope for each variable, a thing which can decrease performance not increase.
 In the last react conf, one of react team members related to this issue, youtube: react forget. 
 
-So how we can try to solve those things? 
+## So how we can try to solve those things? 
 1. Extremely unopinionated - Give some pattern to how custom hooks should look. 
 2. useEffect ambigiousity - 
 - Change the react rules so useEffect will be "useWatch", that we would not need to put each and every variable there. 
