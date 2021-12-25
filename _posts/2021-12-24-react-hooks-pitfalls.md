@@ -14,7 +14,7 @@ I'm ok with react hooks as a notion, I like the minimalistic and functional appr
 In the last react conf, [one of react team members related to this issue](https://www.youtube.com/watch?v=lGEMwh32soc).
 
 ## So how can we try solve those problems? 
-1. __Extremely unopinionated__ - Give some pattern to how custom hooks should look.
+1. __Extremely unopinionated__ - Give some pattern to how custom hooks should look, maybe the news react docs (currently in beta) will do us this favor. 
 2. __useEffect ambigiousity__ - 
 - Change the react rules so useEffect will be "useWatch", that we would not need to put each and every variable there. 
 - More practical: Wrap useEffect with simpler hook, although I'm against this one, why complex things from the beginning? 
