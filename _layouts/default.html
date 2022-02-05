@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="{{'assets/css/index.css' | relative_url}}">
   </head>
   <body>
+    <div>
+      <button onclick="toggleDarkMode()">☾</button>
+    </div>
     {{ content }}
   </body>
+  <script src="{{ base.url | prepend: site.url }}/assets/js/darkMode.js"></script>
 </html>

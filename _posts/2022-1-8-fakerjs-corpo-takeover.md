@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ## Faker.js corpo takeover (a call for decentralized services) 
 
 This week, if you tried to install [Faker.js](https://www.npmjs.com/package/faker) (a very popular library for creating mocks) you've noticed the version was set on "6.6.6" and all code was gone with the text "What really happened with Aaron Swartz?". 

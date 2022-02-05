@@ -4,20 +4,15 @@
         url("../fonts/Roboto-Regular.ttf");
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        --color1: #0d0e0d;
-        --color2: #07d18a;
-        /* --color3: #9088db; */
-        --color3: rgb(255, 99, 209);
-    }
+body[dark-theme] {
+    --color1: #0d0e0d;
+    --color2: #07d18a;
+    --color3: rgb(255, 99, 209);
 }
 
-@media (prefers-color-scheme: light) {
-    body {
-        --color1: rgb(212, 205, 205);
-        --color2: #0d0e0d;
-    }
+body {
+    --color1: rgb(212, 205, 205);
+    --color2: #0d0e0d;
 }
 
 body {
