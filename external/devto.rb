@@ -15,7 +15,8 @@ slugs = articles.map { |article| article["slug"] }
 slugs.map { |slug| 
     article = get("https://dev.to/api/articles/purplecmd/#{slug}")
     md = article["body_markdown"]
-    File.open(article["slug"], 'w') { |file| file.write(md) }
+    title = article["title"]
+    File.open(article["slug"] + '.md', 'w') { |file| file.write("## " + title + '\n' + md) }
 }
 
 
