@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="{{'assets/css/index.css' | relative_url}}">
   </head>
   <body>
-    <div>
-      <button onclick="toggleDarkMode()">☾</button>
+
+    <div class="header">
+      <button class="dark-mode-btn" onclick="toggleDarkMode()">☾</button>
+      <a href="../">Back</a>
     </div>
     {{ content }}
   </body>

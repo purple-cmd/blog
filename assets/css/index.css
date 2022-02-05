@@ -27,3 +27,13 @@ a {
     color: var(--color3);
 }
 
+.header {
+    display: flex;
+    place-items: center center;
+}
+
+.dark-mode-btn {
+    border-radius: 10px;
+    margin-right: 1em;
+}
+

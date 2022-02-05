@@ -1,5 +1,7 @@
+const isLinux = navigator.userAgentData.platform === "Linux";
 const shouldDarkMode = 
-    !!window.matchMedia('prefers-color-scheme: dark').matches;
+    !!window.matchMedia('prefers-color-scheme: dark').matches ||
+    isLinux;
 const bodyEl = document.querySelector('body');
 
 if (shouldDarkMode) {
