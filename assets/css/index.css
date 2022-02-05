@@ -37,7 +37,6 @@ a {
     margin-right: 1em;
     background: transparent;
     color: var(--color2);
-    /* border: 0; */
     cursor: pointer;
     padding: 5px 8px;
 }
