@@ -4,23 +4,26 @@
         url("../fonts/Roboto-Regular.ttf");
 }
 
-body[dark-theme] {
+html[dark-theme] {
     --color1: #0d0e0d;
     --color2: #07d18a;
     --color3: rgb(255, 99, 209);
 }
 
-body {
+html {
     --color1: rgb(212, 205, 205);
     --color2: #0d0e0d;
+}
+
+html {
+    background: var(--color1);
+    color: var(--color2);
 }
 
 body {
     font-size: 1em;
     font-family: "Roboto";
     margin: 2em;
-    background: var(--color1);
-    color: var(--color2);
 }  
 
 a {

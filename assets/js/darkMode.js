@@ -1,13 +1,16 @@
 const isLinux = navigator.userAgent.includes('Linux');
 const shouldDarkMode = 
-    !!window.matchMedia('prefers-color-scheme: dark').matches ||
+    window?.matchMedia('prefers-color-scheme: dark').matches ||
     isLinux;
-const bodyEl = document.querySelector('body');
+const htmlEl = document.querySelector('html');
 
 if (shouldDarkMode) {
     toggleDarkMode();
 }
 
+window.matchMedia('(prefers-color-scheme: dark)')
+    .addEventListener('change', _ => { console.log('changed!!');})
+
 function toggleDarkMode() {
-    bodyEl.toggleAttribute('dark-theme');
+    htmlEl.toggleAttribute('dark-theme');
 }
