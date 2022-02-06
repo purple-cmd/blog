@@ -18,9 +18,3 @@ slugs.map { |slug|
     title = article["title"]
     File.open(article["slug"] + '.md', 'w') { |file| file.write("## " + title + '\n' + md) }
 }
-
-
-
-
-
-

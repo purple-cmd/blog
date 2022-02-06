@@ -10,9 +10,9 @@
 
     <div class="header">
       <button class="dark-mode-btn" onclick="toggleDarkMode()">☾</button>
-      <a href="/index.html">Back</a>
+      <a href="{{ '/index.html' | relative_url }}">Back</a>
     </div>
     {{ content }}
+    <script src="{{'/assets/js/darkMode.js' | relative_url}}"></script>
   </body>
-  <script src="{{ base.url | prepend: site.url }}/assets/js/darkMode.js"></script>
 </html>
