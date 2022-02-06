@@ -8,7 +8,7 @@ if (shouldDarkMode) {
     toggleDarkMode();
 }
 
-window.matchMedia('(prefers-color-scheme: dark)')
+window?.matchMedia('(prefers-color-scheme: dark)')
     .addEventListener('change', e => {
         e.matches ? htmlEl.setAttribute('dark-theme', true) : htmlEl.removeAttribute('dark-theme')
     });
