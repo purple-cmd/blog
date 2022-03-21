@@ -29,5 +29,5 @@ https://www.reddit.com/r/node/comments/axbml8/http2_support_in_express/
 https://www.youtube.com/watch?v=jhqrRT4fvOA  
 
 we support http2 when deployed!
-But do we use it to it's full extent? 
+But do we use it to its full extent? 
 
