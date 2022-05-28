@@ -34,8 +34,8 @@ Google.
 
 ### How it works: 
 1. Server (origin), sends those response headers:
-    Accept-CH = I (server) support those hints. 
-    Critical-CH = I (server) need those hints, pls give them to me if you haven't already.
+    __Accept-CH__ = I (server) support those hints.   
+    __Critical-CH__ = I (server) need those hints, pls give them to me if you haven't already.
 2. Server gets those headers from the client on each next request (if allowed). 
 
 ### Is there another way for the client to send Client Hints?
