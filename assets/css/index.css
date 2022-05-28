@@ -10,8 +10,9 @@ html[dark-theme] {
 }
 
 html {
-    --color1: rgb(212, 205, 205);
-    --color2: #0d0e0d;
+    --color1: #92a7ff;
+    --color2: black;
+    --color3: #262bd6;
 }
 
 html {
