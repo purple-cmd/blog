@@ -17,7 +17,7 @@ In order to solve this problem, I needed to find a way notify the server about t
 A way for the server to ask and get info about the client (device, dark-mode preference, approximate bandwidth, reduced data preference...)
 
 ### Why were Client Hints invented?
-User-agent string.
+A replacement for the User-agent string.
 Google and Mozilla want to [freeze and unify it](https://groups.google.com/a/chromium.org/g/blink-dev/c/-2JIRNMWJ7s/m/yHe4tQNLCgAJ)
 
 ### Who's their creator: 
