@@ -9,7 +9,7 @@ At work, we have a Next.js application serving articles.
 
 When I implemented dark mode I noticed a side effect: flickering at every start of the page. 
 
-I found out happens because when the server generates the HTML, dark mode client preference is not available. 
+I found out it happens because when the server generates the HTML, dark mode client preference is not available. 
 
 In order to solve this problem, I needed to find a way notify the server about the client metadata at the very beginning: Client Hints.
 
