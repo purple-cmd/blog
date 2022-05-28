@@ -15,11 +15,12 @@ A way for the server to ask and get info about the client (device, dark-mode pre
 * This cache is cleared when session cookies are cleared, or when a user clears site data or cookies for a given origin.
 * Client Hints are not available on the very first navigation request 
 
-### Why were client hints invented?
+### Why were Client Hints invented?
 User-agent string.
 Google and Mozilla want to [freeze and unify it](https://groups.google.com/a/chromium.org/g/blink-dev/c/-2JIRNMWJ7s/m/yHe4tQNLCgAJ)
 
-Who's the creator: Google. 
+### Who's their creator: 
+Google. 
 
 ### Motivation: 
 1. Privacy - Now the client can negotiate with the server on what to send. 
