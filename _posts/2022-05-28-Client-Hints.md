@@ -8,7 +8,7 @@ I had a problem.
 At work, we have a Next.js application serving articles. 
 When I implemented dark mode I noticed a flickering at every start of the page. 
 I found out happens because when the server generates the HTML, dark mode client preference is not available. 
-So I tried to find a solution, to notify the server about the client preferences at the first request and I found my savior: Client Hints: 
+So I tried to find a solution to notify the server about the client preferences at the first request and I found my savior: Client Hints.
 
 ### So what are HTTP Client Hints?
 A way for the server to ask and get info about the client (device, dark-mode preference, approximate bandwidth, reduced data preference...)
