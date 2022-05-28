@@ -6,14 +6,15 @@ layout: default
 
 I had a problem. 
 At work, we have a Next.js application serving articles. 
-When I implemented dark mode I noticed a flickering at every start of the page. 
+
+When I implemented dark mode I noticed a side effect: flickering at every start of the page. 
+
 I found out happens because when the server generates the HTML, dark mode client preference is not available. 
-So I tried to find a solution to notify the server about the client preferences at the first request and I found my savior: Client Hints.
+
+In order to solve this problem, I needed to find a way notify the server about the client metadata at the very beginning: Client Hints.
 
 ### So what are HTTP Client Hints?
 A way for the server to ask and get info about the client (device, dark-mode preference, approximate bandwidth, reduced data preference...)
-* This cache is cleared when session cookies are cleared, or when a user clears site data or cookies for a given origin.
-* Client Hints are not available on the very first navigation request 
 
 ### Why were Client Hints invented?
 User-agent string.
@@ -46,7 +47,6 @@ example: `<meta http-equiv="Accept-CH" content="Downlink, sec-ch-prefers-color-s
  - 2 -> If Sites running older software. Can continue to use Critical-CH. The round trip will be at the first load. 
  
  * Critical-CH costs a round-trip, so making ACCEPT_CH + ALPS always work would seem preferable
-
 
 
 ### Caching:
