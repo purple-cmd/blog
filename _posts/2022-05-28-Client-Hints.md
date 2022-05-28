@@ -44,7 +44,7 @@ example: `<meta http-equiv="Accept-CH" content="Downlink, sec-ch-prefers-color-s
 
 ### So, How many network calls I'll make? 
  - 1 -> If you use HTTP/2 + TLS 1.3 + ALPS: Client Hints would be available in the first request.
- - 2 -> If Sites running older software. Can continue to use Critical-CH. The round trip will be at the first load. 
+ - 2 -> If running older software. Can continue to use Critical-CH. The round trip will be at the first load. 
  
  * Critical-CH costs a round-trip, so making ACCEPT_CH + ALPS always work would seem preferable
 
