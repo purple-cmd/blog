@@ -55,7 +55,8 @@ In order to cache the response of different client-hints we should add all of th
 Firefox - [They have started discussing adding support for it.](https://bugzilla.mozilla.org/show_bug.cgi?id=935216)  
 Safari - don't know yet. 
 
-_sources_:  
+
+### _sources_:  
 https://github.com/WICG/client-hints-infrastructure/blob/main/reliability.md
 https://chromium.googlesource.com/chromium/src/+/refs/heads/main/components/client_hints/README.md
 https://mpulp.mobi/2020/01/16/client-hints-replacing-the-user-agent/
