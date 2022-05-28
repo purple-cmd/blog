@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Client Hints 
 
 I had a problem. 
