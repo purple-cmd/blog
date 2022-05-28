@@ -39,7 +39,7 @@ Who's the creator: Google.
 
 ### Is there another way for client to send client hints?
 Yes, you can specify them in html <meta> element with the http-equiv attribute:
-example: `<meta http-equiv="Accept-CH" content="Width, Downlink, Sec-CH-UA">`
+example: `<meta http-equiv="Accept-CH" content="Downlink, sec-ch-prefers-color-scheme">`
 
 ### So, How many network calls I'll make? 
  - 1 -> If you use HTTP/2 + tls 1.3 + ALPS: Client Hints would be available in the first request.
@@ -57,10 +57,8 @@ Safari - don't know yet.
 
 
 ##### _sources:_
-<span class="small">
-https://github.com/WICG/client-hints-infrastructure/blob/main/reliability.md
-https://chromium.googlesource.com/chromium/src/+/refs/heads/main/components/client_hints/README.md
-https://mpulp.mobi/2020/01/16/client-hints-replacing-the-user-agent/
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Client_hints
-</span>
-
+- https://github.com/WICG/client-hints-infrastructure/blob/main/reliability.md  
+- https://chromium.googlesource.com/chromium/src/+/refs/  
+heads/main/components/client_hints/README.md   
+- https://mpulp.mobi/2020/01/16/client-hints-replacing-the-user-agent/  
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Client_hints  

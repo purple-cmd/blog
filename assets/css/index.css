@@ -1,50 +1,62 @@
 @font-face {
-    font-family: "Roboto";
-    src: url("../fonts/Roboto-Regular.ttf");
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
 }
 
 html[dark-theme] {
-    --color1: #0d0e0d;
-    --color2: #07d18a;
-    --color3: rgb(255, 99, 209);
+  --color1: #0d0e0d;
+  --color2: #07d18a;
+  --color3: rgb(255, 99, 209);
 }
 
 html {
-    --color1: #92a7ff;
-    --color2: black;
-    --color3: #262bd6;
+  --color1: #92a7ff;
+  --color2: black;
+  --color3: #262bd6;
 }
 
 html {
-    background: var(--color1);
-    color: var(--color2);
+  background: var(--color1);
+  color: var(--color2);
 }
 
 body {
-    font-size: 1.2em;
-    font-family: "Roboto";
-    margin: 2em;
-}  
+  font-size: 1.2em;
+  font-family: "Roboto";
+  margin: 2em;
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */ 
+@media (min-width:801px)  { 
+  body {
+    margin: 2em 14em 0 14em;
+  }
+}
 
 a {
-    color: var(--color3);
+  color: var(--color3);
 }
 
 .header {
-    display: flex;
-    place-items: center center;
+  display: flex;
+  place-items: center center;
 }
 
 .dark-mode-btn {
-    border-radius: 10px;
-    margin-right: 1em;
-    background: transparent;
-    color: var(--color2);
-    cursor: pointer;
-    padding: 5px 8px;
+  border-radius: 10px;
+  margin-right: 1em;
+  background: transparent;
+  color: var(--color2);
+  cursor: pointer;
+  padding: 5px 8px;
 }
 
 .small {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
+.ellipsis-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
