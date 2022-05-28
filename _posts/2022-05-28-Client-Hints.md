@@ -33,7 +33,7 @@ Google.
 2. The browser does not wish to send the requested client hint. 
 
 ### How it works: 
-1. Server (origin), sends those response headers:
+1. Server (origin), sends those response headers:  
     __Accept-CH__ = I (server) support those hints.   
     __Critical-CH__ = I (server) need those hints, pls give them to me if you haven't already.
 2. Server gets those headers from the client on each next request (if allowed). 
