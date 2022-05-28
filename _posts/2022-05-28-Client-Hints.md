@@ -48,7 +48,7 @@ example: `<meta http-equiv="Accept-CH" content="Width, Downlink, Sec-CH-UA">`
  * Critical-CH costs a round-trip, so making ACCEPT_CH + ALPS always work would seem preferable
 
 
-### Caching: (TBD)
+### Caching:
 In order to cache the response of different client-hints we should add all of them also to the [Vary response header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Vary).
 
 ### So, is it only a Chrome thing? 
