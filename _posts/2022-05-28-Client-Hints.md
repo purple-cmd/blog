@@ -14,7 +14,7 @@ I found out it happens because when the server generates the HTML, dark mode cli
 In order to solve this problem, I needed to find a way notify the server about the client metadata at the very beginning: Client Hints.
 
 ### So what are HTTP Client Hints?
-A way for the server to ask and get info about the client (device, dark-mode preference, approximate bandwidth, reduced data preference...)
+A way for the server to ask and get info about the client [(device, dark-mode preference, approximate bandwidth, reduced data preference...)](https://browserleaks.com/client-hints)
 
 ### Why were Client Hints invented?
 A replacement for the User-agent string.
@@ -56,7 +56,6 @@ To cache the response of different Client Hints, also add them to the [Vary resp
 No:  
 - Firefox - [They have started discussing adding support for it.](https://bugzilla.mozilla.org/show_bug.cgi?id=935216)  
 - Safari - unknown yet. 
-
 
 
 ##### _sources:_
