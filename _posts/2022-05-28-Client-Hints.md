@@ -25,7 +25,7 @@ Google.
 
 ### Motivation: 
 1. Privacy - Now the client can negotiate with the server on what to send. 
-2. Efficiency - For historical reasons user-agent contains a lot of irrelevant information.
+2. Efficiency - It is easier to extract and maintain it than user-agent string (For historical reasons user-agent contains a lot of irrelevant information).
 3. Political -  Up until now user-agent was used to fingerprint users.  Google aims to make fingerprinting harder for other parties.
 
 ### Client Hints need to be reliable
