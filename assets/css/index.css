@@ -42,15 +42,6 @@ a {
   place-items: center center;
 }
 
-.dark-mode-btn {
-  border-radius: 10px;
-  margin-right: 1em;
-  background: transparent;
-  color: var(--color2);
-  cursor: pointer;
-  padding: 5px 8px;
-}
-
 .small {
   font-size: 0.8em;
 }

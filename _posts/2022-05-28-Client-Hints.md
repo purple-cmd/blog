@@ -53,7 +53,12 @@ example: `<meta http-equiv="Accept-CH" content="Downlink, sec-ch-prefers-color-s
 To cache the response of different Client Hints, also add them to the [Vary response header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Vary).
 
 ### Demo:
-![Client Hints Demo](https://res.cloudinary.com/purplecmd/image/upload/v1655847359/blog/client-hints_nvikb4.png)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://res.cloudinary.com/purplecmd/image/upload/v1655847806/blog/client-hints-dark_tz4wzs.svg" >
+  <img width="100%" alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="https://res.cloudinary.com/purplecmd/image/upload/v1655847806/blog/client-hints-light_vexrak.svg">
+</picture>
+
 
 
 ### So, is it only a Chrome thing? 
