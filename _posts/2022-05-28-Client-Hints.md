@@ -52,6 +52,10 @@ example: `<meta http-equiv="Accept-CH" content="Downlink, sec-ch-prefers-color-s
 ### Caching:
 To cache the response of different Client Hints, also add them to the [Vary response header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Vary).
 
+### Demo:
+![Client Hints Demo](https://res.cloudinary.com/purplecmd/image/upload/v1655847359/blog/client-hints_nvikb4.png)
+
+
 ### So, is it only a Chrome thing? 
 No:  
 - Firefox - [They have started discussing adding support for it.](https://bugzilla.mozilla.org/show_bug.cgi?id=935216)  
