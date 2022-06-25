@@ -1,13 +1,17 @@
-html[dark-theme] {
-  --color1: #0d0e0d;
-  --color2: #07d18a;
-  --color3: rgb(255, 99, 209);
+@media (prefers-color-scheme: dark) {
+  html {
+    --color1: #0d0e0d;
+    --color2: #07d18a;
+    --color3: rgb(255, 99, 209);
+  }
 }
 
-html {
-  --color1: #92a7ff;
-  --color2: black;
-  --color3: #262bd6;
+@media (prefers-color-scheme: light) {
+  html {
+    --color1: #92a7ff;
+    --color2: black;
+    --color3: #262bd6;
+  }
 }
 
 html {
