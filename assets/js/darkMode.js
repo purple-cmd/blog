@@ -9,6 +9,10 @@ if (shouldDarkMode) {
     toggleDarkMode();
 }
 
+darkModeQuery.addEventListener('change', e => {
+    e.matches ? htmlEl.setAttribute('dark-theme', true) : htmlEl.removeAttribute('dark-theme')
+});
+
 function toggleDarkMode() {
     htmlEl.toggleAttribute('dark-theme');
 }
